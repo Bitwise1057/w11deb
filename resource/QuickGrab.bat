@@ -1,6 +1,8 @@
 @echo off
 setlocal
 
+title QuickGrab Script
+
 set "outputFolder=%~dp0Outputs"
 
 if not exist "%outputFolder%" (
